@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,SAAS,CAAC;EACR,SAAS,EAAE,MAAM;EACjB,aAAa,EAAE,KAAK;EACpB,YAAY,EAAE,KAAK;EACnB,WAAW,EAAE,IAAI;EACjB,YAAY,EAAE,IAAI;CACnB",
+    "sources": [
+        "newitems.scss"
+    ],
+    "names": [],
+    "file": "newitems.css"
+}

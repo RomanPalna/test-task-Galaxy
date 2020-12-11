@@ -11,8 +11,10 @@
     <header>
       <div class="header-container">
         <ul class="header-nav">
-          <li class="header-nav__item header-menu">Каталог товаров</li>
-          <li class="header-nav__item">Клиентам</li>
+          <li class="header-nav__item header-menu">
+            <a href="">Каталог товаров</a>
+          </li>
+          <li class="header-nav__item"><a href="">Клиентам</a></li>
         </ul>
         <div class="header-logo">
           <img src="./images/header/logo.jpg" alt="logo" />
@@ -46,5 +48,117 @@
         </ul>
       </div>
     </header>
+    <main>
+      <div class="slider">
+        <div class="slider-content">
+          <h1 class="slider-content__title">Новая коллекция женских блуз</h1>
+          <p class="slider-content__text">
+            Сомнение рефлектирует естественный закон исключённого третьего.
+            Дискретность амбивалентно транспонирует гравитационный парадокс.
+          </p>
+
+          <button type="button" class="show-next">
+            Смотреть
+            <svg width="36" height="10" aria-label="finder">
+              <use
+                href="./images/navigation/nav.svg#icon-main-arrow-right"
+              ></use>
+            </svg>
+          </button>
+        </div>
+
+        <div class="slider-nav">
+          <button type="button" class="js-nav-left">
+            <svg width="23" height="24" aria-label="finder">
+              <use href="./images/navigation/nav.svg#icon-arrow-left"></use>
+            </svg>
+          </button>
+          <button type="button" class="js-nav-right">
+            <svg width="23" height="24" aria-label="finder">
+              <use href="./images/navigation/nav.svg#icon-arrow-right"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <section class="newitems">
+        <h2 class="newitems-title">НОВИНКИ</h2>
+        <p class="newitems-text">
+          Сомнение рефлектирует естественный закон исключённого третьего..
+        </p>
+        <p class="newitems-text">
+          Дискретность амбивалентно транспонирует гравитационный парадокс.
+        </p>
+
+        <ul>
+          <li>
+            <figure>
+              <picture>
+                <img
+                  src="./images/body/new-goods/girl-with-board.png"
+                  alt="girl with board"
+                />
+              </picture>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <picture>
+                <img
+                  src="./images/body/new-goods/donella.jpg"
+                  alt="girl with board"
+                />
+              </picture>
+            </figure>
+            <p>Футболка Donella</p>
+            <p>980 uah</p>
+            <a href="#"
+              ><svg width="23" height="24" aria-label="finder">
+                <use
+                  href="./images/header/svg/symbol-defs.svg#icon-goods"
+                ></use></svg
+            ></a>
+          </li>
+          <li>
+            <figure>
+              <picture>
+                <img
+                  src="./images/body/new-goods/t-short-donella.jpg"
+                  alt="t-short"
+                />
+              </picture>
+            </figure>
+            <p>Рубашка Donella</p>
+            <p>980 uah</p>
+            <a href="#"
+              ><svg width="23" height="24" aria-label="finder">
+                <use
+                  href="./images/header/svg/symbol-defs.svg#icon-goods"
+                ></use></svg
+            ></a>
+          </li>
+          <li>
+            <figure>
+              <picture>
+                <img
+                  src="./images/body/new-goods/sweetshot-donella.jpg"
+                  alt="sweetshot"
+                />
+              </picture>
+            </figure>
+            <p>Рубашка Donella</p>
+            <p>980 uah</p>
+            <a href="#"
+              ><svg width="23" height="24" aria-label="finder">
+                <use
+                  href="./images/header/svg/symbol-defs.svg#icon-goods"
+                ></use></svg
+            ></a>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <script src="./js/index.js"></script>
   </body>
 </html>
