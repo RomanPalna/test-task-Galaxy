@@ -451,13 +451,6 @@ figure {
           align-items: center;
 }
 
-.header-cabinet__item {
-  -webkit-transition: -webkit-transform 250ms cubic-bezier(0.075, 0.82, 0.165, 1);
-  transition: -webkit-transform 250ms cubic-bezier(0.075, 0.82, 0.165, 1);
-  transition: transform 250ms cubic-bezier(0.075, 0.82, 0.165, 1);
-  transition: transform 250ms cubic-bezier(0.075, 0.82, 0.165, 1), -webkit-transform 250ms cubic-bezier(0.075, 0.82, 0.165, 1);
-}
-
 .header-cabinet__item:not(:last-child) {
   margin-right: 41px;
 }
@@ -682,5 +675,9 @@ figure {
   font-size: 18px;
   line-height: 1.15;
   color: #1d1d1d;
+}
+
+.blog {
+  visibility: hidden;
 }
 /*# sourceMappingURL=main.css.map */
